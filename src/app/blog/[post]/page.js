@@ -48,7 +48,7 @@ export default async function Page({ params }) {
             <Image
                 src={"https:" + data.fields.banner.fields.file.url}
                 alt={data.fields.banner.fields.title}
-                objectFit="cover"
+                style={{objectFit: "cover"}}
                 width={1000}
                 height={1000}
                 className="blog-banner"
